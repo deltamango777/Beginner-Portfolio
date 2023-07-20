@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/Assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
 </head>
+
 <body>
-    <nav>
-        <!-- Navbar content goes here -->
-      </nav>
-    
-      <div class="header">
-        <!-- Content for the header section goes here -->
+  <header>
+    <!-- Developer's name and photo/avatar -->
+    <h1>Developer's Name</h1>
+    <img src="path/to/photo.jpg" alt="Developer's Photo">
+  </header>
+
+  <nav>
+    <!-- Navigation links -->
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <!-- About section content -->
+    <h2>About Me</h2>
+    <p>Write a brief description about yourself and your skills.</p>
+  </section>
+
+  <section id="work">
+    <!-- Work section content -->
+    <h2>My Work</h2>
+    <div class="portfolio-items">
+      <!-- Image and title of each application -->
+      <div class="portfolio-item">
+        <img src="path/to/application1.jpg" alt="Application 1">
+        <h3>Application 1</h3>
       </div>
-    
-      <section class="section about">
-        <h2>About Me</h2>
-        <div class="content">
-          <!-- Content for the About Me section goes here -->
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, odio blanditiis. Ratione, asperiores animi exercitationem nulla consectetur maxime delectus officia voluptatem cupiditate dicta laborum distinctio voluptatum fuga iure explicabo eos.</p>
-        </div>
-      </section>
-    
-      <section class="section work">
-        <h2>Work</h2>
-        <div class="content">
-          <!-- Content for the Work section goes here -->
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ad tempora consectetur odit adipisci eaque veniam sunt nobis quod, praesentium possimus obcaecati, recusandae laudantium fuga, corrupti facere quibusdam eligendi voluptatum!</p>
-        </div>
-      </section>
-    
-      <section class="section contact">
-        <h2>Contact Me</h2>
-        <div class="content">
-          <!-- Content for the Contact Me section goes here -->
-        </div>
-      </section>
+      <div class="portfolio-item">
+        <img src="path/to/application2.jpg" alt="Application 2">
+        <h3>Application 2</h3>
+      </div>
+      <!-- Add more portfolio items as needed -->
+    </div>
+  </section>
 
+  <section id="contact">
+    <!-- Contact section content -->
+    <h2>Contact Me</h2>
+    <p>Include your contact information, such as email or phone number.</p>
+  </section>
 
-
+  <script src="script.js"></script>
 </body>
+
 </html>
